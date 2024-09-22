@@ -1,0 +1,10 @@
+version: '1'
+services:
+  app:
+    image: 'ptest-environment-switcher:latest'
+    container_name: 'ptest-environment-switcher'
+    ports:
+      - '8080:8080'
+    volumes:
+      - './src/ptest-environment-switcher:/ptest-environment-switcher'
+    command: 'tail -f /dev/null'
