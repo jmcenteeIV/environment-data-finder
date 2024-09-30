@@ -1,0 +1,16 @@
+test:
+  UI_URL: 'http://localhost:4200'
+  API_URL: 'http://localhost:3000'
+  POST_JSON: {
+    "title": "foo",
+    "body": "bar",
+    "userId": 1
+  }
+test2:
+  UI_URL: 'http://localhost2:4200'
+  API_URL: 'http://localhost2:3000'
+  POST_JSON: {
+    "title1": "foo2",
+    "body1": "bar2",
+    "userId1": 3
+  }

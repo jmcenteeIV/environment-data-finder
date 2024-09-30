@@ -9,7 +9,7 @@
             "type": "chrome",
             "request": "attach",
             "url": "http://localhost:3000",
-            "webRoot": "${workspaceFolder}"
+            "webRoot": "${workspaceFolder}/ptest-environment-switcher"
         },
         {
             "name": "Launch Chrome against localhost with sourcemaps",
